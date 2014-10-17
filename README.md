@@ -7,4 +7,6 @@ MarkDown https://github.com/damdud/KCK2014.git
 2) drugi punkt
 3) trzeci punkt
 
+
 Arek nie usuwaj!!
+

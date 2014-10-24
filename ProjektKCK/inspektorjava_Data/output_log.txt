@@ -14,7 +14,7 @@ Platform assembly: C:\Users\kajot_000\Desktop\KCK2014\ProjektKCK\inspektorjava_D
 Loading C:\Users\kajot_000\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\kajot_000\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\kajot_000\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.045 seconds
+- Completed reload, in  0.044 seconds
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.

@@ -8,6 +8,7 @@ W skład grupy wchodzą następujące osoby:
 - Arkadiusz Chrobak
 - Jakub Downarowicz
 - Jakub Janicki
+
 =====================================================================
 Plan realizacji projektu:
  1. Ustalenie wszystkich szczegółów gry i projekt mapy,
@@ -17,6 +18,7 @@ Plan realizacji projektu:
  5. stworzenie podstawowej historii dla detektywa,
  6. nauczenie detektywa chodzić, reagować, poniekąd myśleć,
  7. pierwsze testy i poprawki.
+ 
 =====================================================================
 Zadania inspektora Javy:
  1. Inspektor po wejściu do gry otrzymuje randomowo wybrane zadanie w formie listu, który następnie po przeanalizowaniu skomentuje.
@@ -32,6 +34,7 @@ Zadania inspektora Javy:
  5. Jeśli Inspektor znajdzie jakiś dowód, komentuje go, w jaki sposób może on mu pomóc( szafki,
     skrytki oczywiście przeszukuje z rozkazu gracza), przy większej ilości dowodów zaczyna analizować na kogo może paść podejrzenie zbrodni.
  6. Każdy dowód będzie coraz bardziej obciążał jednego z podejrzanych lub uniewinniał innych, na zasadzie punktacji, które są przydzielane indywidualnie wszystkim podejrzanym.
+ 
 =====================================================================
 Planowane środowisko: 
 - Unity3D

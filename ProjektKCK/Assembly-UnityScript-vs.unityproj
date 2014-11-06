@@ -50,7 +50,7 @@
      <None Include="Assets\Meble\Readme.txt" />
      <None Include="Assets\San Francisco House\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Jakub/Documents/Unity/KCK2014/ProjektKCK/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/ARES/Desktop/KCK2014/KCK2014/ProjektKCK/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

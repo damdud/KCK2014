@@ -14,10 +14,7 @@ Platform assembly: C:\Users\Jakub\Documents\Unity\KCK2014\ProjektKCK\inspektorja
 Loading C:\Users\Jakub\Documents\Unity\KCK2014\ProjektKCK\inspektorjava_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Jakub\Documents\Unity\KCK2014\ProjektKCK\inspektorjava_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Jakub\Documents\Unity\KCK2014\ProjektKCK\inspektorjava_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.202 seconds
+- Completed reload, in  0.058 seconds
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Jakub\Documents\Unity\KCK2014\ProjektKCK\inspektorjava_Data\Managed\System.Core.dll (this message is harmless)
-WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-Platform assembly: C:\Users\Jakub\Documents\Unity\KCK2014\ProjektKCK\inspektorjava_Data\Managed\Boo.Lang.dll (this message is harmless)

@@ -47,8 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Wyposażenie\Record_player\Scripts\RecordPlayer.cs" />
+     <Compile Include="Assets\Wyposażenie\RoadTool\Scripts\Road.cs" />
+     <None Include="Assets\Wyposażenie\RoadTool\Example\Texture\Texture Credits.txt" />
      <None Include="Assets\Wyposażenie\Meble\Readme.txt" />
+     <None Include="Assets\Wyposażenie\RoadTool\README.txt" />
      <None Include="Assets\Budynki\San Francisco House\readme.txt" />
+     <None Include="Assets\Wyposażenie\RoadTool\Example\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/ARES/Desktop/KCK2014/KCK2014/ProjektKCK/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

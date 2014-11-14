@@ -2752,6 +2752,7 @@ GameObject:
   - 114: {fileID: 1064516503}
   - 114: {fileID: 1064516502}
   - 114: {fileID: 1064516500}
+  - 114: {fileID: 1064516501}
   m_Layer: 0
   m_Name: Inspektor
   m_TagString: Untagged
@@ -2810,6 +2811,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoRotate: 1
   maxRotationSpeed: 360
+--- !u!114 &1064516501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1064516497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e430333d3079243a89881e6926ac15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1064516502
 MonoBehaviour:
   m_ObjectHideFlags: 0

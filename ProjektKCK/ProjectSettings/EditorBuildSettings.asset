@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sceny/mapa.unity
+  - enabled: 1
+    path: Assets/Sceny/komisariat.unity
+  - enabled: 1
+    path: Assets/Sceny/magazyn.unity
+  - enabled: 1
+    path: Assets/Sceny/mieszkanie.unity
+  - enabled: 1
+    path: Assets/Sceny/mieszkanie2.unity
+  - enabled: 1
+    path: Assets/Sceny/sklep.unity

@@ -51,11 +51,14 @@
      <Compile Include="Assets\Pathfinding\Scripts\JSPath.js" />
      <Compile Include="Assets\Wyposażenie\krzesla i stol\Scripts\MouseOrbitZoom.js" />
      <None Include="Assets\Wyposażenie\RoadTool\Example\Texture\Texture Credits.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Wyposażenie\Meble\Readme.txt" />
      <None Include="Assets\Wyposażenie\RoadTool\README.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\Budynki\San Francisco House\readme.txt" />
      <None Include="Assets\Wyposażenie\RoadTool\Example\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Wyposażenie\Machine Shop Equipment\Readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
      <None Include="Assets\Wyposażenie\Palety\license.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>

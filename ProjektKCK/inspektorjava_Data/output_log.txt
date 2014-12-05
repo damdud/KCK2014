@@ -18,8 +18,38 @@ Platform assembly: C:\Users\Jakub Janicki\Desktop\KCK2014\ProjektKCK\inspektorja
 Loading C:\Users\Jakub Janicki\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\Jakub Janicki\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Jakub Janicki\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.050 seconds
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Jakub Janicki\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+UnloadTime: 4.371704 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 492.
+Total: 1.001091 ms (FindLiveObjects: 0.023519 ms CreateObjectMapping: 0.008125 ms MarkObjects: 0.156514 ms  DeleteObjects: 0.373752 ms)
+
+Platform assembly: C:\Users\Jakub Janicki\Desktop\KCK2014\ProjektKCK\inspektorjava_Data\Managed\Boo.Lang.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+UnloadTime: 1.658365 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 468.
+Total: 1.742609 ms (FindLiveObjects: 0.017533 ms CreateObjectMapping: 0.008980 ms MarkObjects: 0.115888 ms  DeleteObjects: 1.167869 ms)
+
+WARNING: Shader Unsupported: 'Reflective/VertexLit' - Pass '' shader state not supported
+UnloadTime: 0.585858 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 787.
+Total: 0.727405 ms (FindLiveObjects: 0.024802 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.112040 ms  DeleteObjects: 0.151382 ms)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+UnloadTime: 0.857406 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 662.
+Total: 1.675898 ms (FindLiveObjects: 0.021809 ms CreateObjectMapping: 0.011118 ms MarkObjects: 0.107336 ms  DeleteObjects: 1.108427 ms)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported

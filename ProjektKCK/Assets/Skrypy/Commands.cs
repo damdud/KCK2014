@@ -1,49 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-[RequireComponent(typeof(AudioSource))]
 public class Commands : MonoBehaviour {
 	public InputField myInput;
 	public Text polecenie;
 	public GameObject pole;
-	public Text Biuro;
-	public Text Magazyn;
-	public Text Komisariat;
-	public Text Mieszkanie;
-	public Text Sklep;
-	public Text Mieszkanie2;
-void Update () {
-
-	
-}
+	public GameObject Texty;
 
 public void changeText()
 {
 
-		string input = myInput.value;
+		string input = myInput.text;
 	/*	if (input == "test" || input == "idz w lewo") {
 						polecenie.text = myInput.text.text;
 						myInput.value = "";
 				}	*/
 		if (input == "pokaz dowody") {
-						pole.SetActive (true);
-
-			Biuro.text = "";
-			Magazyn.text ="";
-			Komisariat.text ="";
-			Mieszkanie.text ="";
-			Sklep.text ="";
-			Mieszkanie2.text = "";
-			myInput.value = "";	
+			Texty.SetActive(false);			
+			pole.SetActive(true);
+			myInput.text = "";	
 				} else if (input == "zamknij dowody") {
+			Texty.SetActive(true);
 			pole.SetActive(false);
-			Biuro.text = "Biuro";
-			Magazyn.text ="Magazyn";
-			Komisariat.text ="Komisariat";
-			Mieszkanie.text ="Kowalscy";
-			Sklep.text ="Sklep";
-			Mieszkanie2.text = "Nowak";
-			myInput.value = "";
+			myInput.text = "";
 				}
 }
 }

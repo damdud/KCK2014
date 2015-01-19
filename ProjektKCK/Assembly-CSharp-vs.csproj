@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skrypy\Biblioteki.cs" />
      <Compile Include="Assets\Skrypy\ChangeScene.cs" />
      <Compile Include="Assets\Skrypy\Commands.cs" />
      <Compile Include="Assets\Skrypy\Dowody.cs" />

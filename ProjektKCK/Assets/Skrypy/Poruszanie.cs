@@ -40,6 +40,7 @@ public class Poruszanie : MonoBehaviour
 		public void Pobierz (){
 		inputValue = myInput.text;
 		myInput.text = "";
+
 		}
 		void Start ()
 		{
@@ -58,7 +59,7 @@ public class Poruszanie : MonoBehaviour
 								zmiennaBool = false;
 				}
 		}
-
+		
 		public void Update ()
 		{
 		Debug.Log (zmiennaBool);

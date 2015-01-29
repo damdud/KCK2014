@@ -28,7 +28,7 @@ public class Poruszanie : MonoBehaviour
 		float timer ;
 		public GameObject Spawner;
 		int randomNumber;
-		
+		string wypisWinnego;
 
 		public void Wyswietl()
 		{
@@ -180,33 +180,40 @@ public class Poruszanie : MonoBehaviour
 			}
 		public void dopasujDowod()
 		{
-		  	if (inputValue == "dopasuj dowod") {
+		  	
+
 						if (zmiennaBool && dystans >= 48 && dystans <= 52) {
 								randomNumber = Random.Range (0, 5);
 								switch (randomNumber) {
 								case 0:
 										Kowalski = Kowalski + 1;
+										trueDowod.text = "To byl Kowalski!";
 										break;
 								case 1:
 										Kowalska = Kowalska + 1;
+										trueDowod.text = "To byla Kowalska!";
 										break;
 								case 2:
 										Nowak = Nowak + 1;
+										trueDowod.text = "To byl Nowak!";
 										break;
 								case 3:
 										Szymanski = Szymanski + 1;
+										trueDowod.text = "To byl Szymanski!";
 										break;
 								case 4:
 										Lech = Lech + 1;
+										trueDowod.text = "To byl Lech!";
 										break;
 								case 5:
 										Malinowska = Malinowska + 1;
+										trueDowod.text = "To byla Malinowska!";
 										break;
 								}
 
 						}
 			else if (zmiennaBool==false && dystans >= 48 && dystans <= 52) falseDowod.text = "Przeciez nie ma tu dowodu";
-				}
+				
 		Debug.Log ("Kowalska: " + Kowalska);
 		Debug.Log ("Szymanski: " + Szymanski);
 		Debug.Log ("Kowalski: " + Kowalski);

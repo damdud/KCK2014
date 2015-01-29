@@ -16,13 +16,14 @@ public void changeText()
 						myInput.value = "";
 				}	*/
 		if (input == "pokaz dowody") {
-			Texty.SetActive(false);			
+	//		Texty.SetActive(false);			
 			pole.SetActive(true);
 			myInput.text = "";	
 				} else if (input == "zamknij dowody") {
-			Texty.SetActive(true);
+		//	Texty.SetActive(true);
 			pole.SetActive(false);
 			myInput.text = "";
-				}
+
+		}
 }
 }

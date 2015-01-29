@@ -787,6 +787,8 @@ MonoBehaviour:
   - idz
   - pojdz
   - dojdz
+  - podejdz
+  - wyjdz
   polecenie:
   - lol
   - pokaz
@@ -798,6 +800,15 @@ MonoBehaviour:
   - z
   - na
   miejsca:
+  - chuja
+  - chuja
+  - chuja
+  - chuja
+  - chuja
+  - chuja
+  - chuja
+  - chuja
+  - chuja
   - chuja
   laczniki:
   - i

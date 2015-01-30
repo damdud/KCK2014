@@ -12,12 +12,7 @@ public class Biblioteki : MonoBehaviour {
 	public Transform[] miejsca ;
 	public string[] laczniki = {"i","oraz",""};
 
-	public static int Kowalski;
-	public static int Kowalska;
-	public static int Nowak;
-	public static int Szymanski;
-	public static int Lech;
-	public static int Malinowska;
+
 
 	public  Text trueDowod;
 	public  Text falseDowod;
@@ -90,12 +85,13 @@ public class Biblioteki : MonoBehaviour {
 	}
 
 	public void Update(){
-		SKowalska.text = "Kowalska: " + Kowalska.ToString ();
-		SKowalski.text = "Kowalski: " + Kowalski.ToString ();
-		SLech.text = "Lech: " + Lech.ToString ();
-		SSzymanski.text = "Szymanski: " + Szymanski.ToString ();
-		SMalinowska.text = "Malinowska: " + Malinowska.ToString ();
-		SNowak.text = "Nowak: " + Nowak.ToString ();
+
+		SKowalska.text = "Kowalska: " + PlayerPrefs.GetInt ("Kowalska");
+		SKowalski.text = "Kowalski: " + PlayerPrefs.GetInt ("Kowalski");
+		SLech.text = "Lech: " + PlayerPrefs.GetInt ("Lech");
+		SSzymanski.text = "Szymanski: " + PlayerPrefs.GetInt ("Szymanski");
+		SMalinowska.text = "Malinowska: " + PlayerPrefs.GetInt ("Malinowska");
+		SNowak.text = "Nowak: " + PlayerPrefs.GetInt ("Nowak");
 		Debug.Log (dystans);
 		if (przelacznik) {
 			dystans = Vector3.Distance (gameObject.transform.position, miejsca [k].position);
@@ -361,36 +357,57 @@ public class Biblioteki : MonoBehaviour {
 			randomNumber = UnityEngine.Random.Range (0, 5); 
 			switch (randomNumber) {
 			case 0:
-				Kowalski = Kowalski + 1;
+				PlayerPrefs.SetInt("Kowalski", (PlayerPrefs.GetInt("Kowalski")+1));
+				PlayerPrefs.Save ();
 				break;
 			case 1:
-				Kowalska = Kowalska + 1;
+				PlayerPrefs.SetInt("Kowalska", (PlayerPrefs.GetInt("Kowalska")+1));
+				PlayerPrefs.Save ();
 				break;
 			case 2:
-				Nowak = Nowak + 1;
+				PlayerPrefs.SetInt("Lech", (PlayerPrefs.GetInt("Lech")+1));
+				PlayerPrefs.Save ();
 				break;
 			case 3:
-				Szymanski = Szymanski + 1;
+				PlayerPrefs.SetInt("Nowak", (PlayerPrefs.GetInt("Nowak")+1));
+				PlayerPrefs.Save ();
 				break;
 			case 4:
-				Lech = Lech + 1;
+				PlayerPrefs.SetInt("Malinowska", (PlayerPrefs.GetInt("Malinowska")+1));
+				PlayerPrefs.Save ();
 				break;
 			case 5:
-				Malinowska = Malinowska + 1;
+				PlayerPrefs.SetInt("Szymanski", (PlayerPrefs.GetInt("Szymanski")+1));
+				PlayerPrefs.Save ();
 				break;
 			}
 			
 		}
 		else if (zmiennaBool==false && dystans >= 48 && dystans <= 52) falseDowod.text = "Przeciez nie ma tu dowodu";
 		
-		Debug.Log ("Kowalska: " + Kowalska);
-		Debug.Log ("Szymanski: " + Szymanski);
-		Debug.Log ("Kowalski: " + Kowalski);
-		Debug.Log ("Nowak: " + Nowak);
-		Debug.Log ("Lech: " + Lech);
-		Debug.Log ("Malinowska: " + Malinowska);
+		Debug.Log ("Kowalska: " + PlayerPrefs.GetInt("Kowalska"));
+		Debug.Log ("Szymanski: " + PlayerPrefs.GetInt("Szymanski"));
+		Debug.Log ("Kowalski: " + PlayerPrefs.GetInt("Kowalski"));
+		Debug.Log ("Nowak: " + PlayerPrefs.GetInt("Nowak"));
+		Debug.Log ("Lech: " + PlayerPrefs.GetInt("Lech"));
+		Debug.Log ("Malinowska: " + PlayerPrefs.GetInt("Malinowska"));
 	}
-	
+	void OnApplicationQuit(){
+		PlayerPrefs.SetInt("Kowalski",0);
+		PlayerPrefs.SetInt("Kowalska",0);
+		PlayerPrefs.SetInt("Nowak",0);
+		PlayerPrefs.SetInt("Lech",0);
+		PlayerPrefs.SetInt("Szymanski",0);
+		PlayerPrefs.SetInt("Malinowska",0);
+		PlayerPrefs.SetInt("Nowaki",0);
+		PlayerPrefs.SetInt("Komisariat",0);
+		PlayerPrefs.SetInt("Biuro",0);
+		PlayerPrefs.SetInt("Kowale",0);
+		PlayerPrefs.SetInt("Magazyn",0);
+		PlayerPrefs.SetInt("Sklep",0);
+		PlayerPrefs.SetInt("Przelacznik",0);
+		PlayerPrefs.Save ();
+		}
 	
 	
 }

@@ -46,16 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MainMenu\Story1.cs" />
+     <Compile Include="Assets\MainMenu\Story2.cs" />
+     <Compile Include="Assets\MainMenu\Story3.cs" />
      <Compile Include="Assets\Skrypy\Biblioteki.cs" />
      <Compile Include="Assets\Skrypy\ChangeScene.cs" />
      <Compile Include="Assets\Skrypy\Commands.cs" />
      <Compile Include="Assets\Skrypy\Dowody.cs" />
+     <Compile Include="Assets\Skrypy\Historie.cs" />
      <Compile Include="Assets\Skrypy\Menu.cs" />
      <Compile Include="Assets\Skrypy\MenuManager.cs" />
      <Compile Include="Assets\Skrypy\Poruszanie.cs" />
      <Compile Include="Assets\Skrypy\Quit.cs" />
      <Compile Include="Assets\Skrypy\ZAPASPoruszanie.cs" />
      <Compile Include="Assets\Skrypy\levelLoad.cs" />
+     <Compile Include="Assets\Skrypy\mapaBiblioteki.cs" />
      <Compile Include="Assets\Wyposażenie\Record_player\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\Wyposażenie\RoadTool\Scripts\Road.cs" />
      <None Include="Assets\Wyposażenie\RoadTool\Example\Texture\Texture Credits.txt" />

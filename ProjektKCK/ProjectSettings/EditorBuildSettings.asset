@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/Sceny/mieszkanie2.unity
   - enabled: 1
     path: Assets/Sceny/sklep.unity
+  - enabled: 1
+    path: Assets/Sceny/Biuro.unity
